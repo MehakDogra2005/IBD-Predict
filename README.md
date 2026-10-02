@@ -1,18 +1,18 @@
-##IBDPredict
+## IBDPredict
 
 Gut Microbiome-Based IBD Detection and Disease Classification
 
 IBDPredict is a machine learning framework that uses gut microbiome data to identify whether an individual is healthy or affected by disease, and further classifies the specific disease among individuals identified as diseased.
 
-###🔬 Prediction Pipeline
+### Prediction Pipeline
 
 The project follows a two-stage classification approach:
 
-####Stage 1 — Healthy vs Disease
+#### Stage 1 — Healthy vs Disease
 
 The first stage performs binary classification to distinguish healthy individuals from individuals affected by disease based on their gut microbiome profiles.
 
-####Stage 2 — Disease Classification
+#### Stage 2 — Disease Classification
 
 For individuals identified as diseased, the second stage performs multi-class classification to determine the specific disease type.
 
